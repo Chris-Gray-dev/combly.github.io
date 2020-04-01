@@ -46,7 +46,7 @@ function random_num(max)
 }
 function select_sound()
 {
-    const sounds = 2
+    const sounds = 6
     var rnd_snd = "./res/snd/" + random_num(sounds) + ".mp3";
     return rnd_snd;
 }
